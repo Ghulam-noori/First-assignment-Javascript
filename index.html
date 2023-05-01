@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstarp Assignment</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-light p-4 nav-background">
+                    <ul class="list-unstyled u-list">
+                        <li><a class="text-decoration-none" href="#T">Type of Lantana</a></li>
+                        <li><a class="text-decoration-none" href="#">Different color of Lantana</a></li>
+                        <li><a class="text-decoration-none" href="#">Lantana Flower</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark  nav-main-bar">
+                <div class="container-fluid">
+                    <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="main-heading my-3">
+                <h1>LANTANA FLOWER</h1>
+                <img src="./LantanaFlower.jpg" class="img-thumbnai" alt="...">
+            </div>
+            <div class="row content">
+                <h4>About Lantana</h4>
+                <p class="text-wrap">Lantana plants have a unique vine-like sprawling appearance from woody branches, making them popular to grow in outdoor hanging baskets or as ground covers. Lantana is known for its rounded clusters of small, brightly colored flowers that may be yellow, orange, white, red, pink, blue, or purple. Often the almost fluorescent colors are mixed within the same cluster, creating a bicolored effect.</p>
+                <h6><a href="https://en.wikipedia.org/wiki/Lantana_camara" target="_blank">Read More</a></h6>
+            </div>
+            <div class="d-flex justify-content-md-between flex-row mb-md-4">
+                <div class="border-start border-danger border-4 px-2">
+                    <h5>Types of Lantana</h5>
+                    <ol>
+                        <li>Trailing lantana (<em>Lantana montevidensis</em>)</li>
+                        <li>Popcorn lantana  (<em>Lantana trifolia</em>)</li>
+                        <li>Wild lantana (<em>Lantana montevidensis</em>)</li>
+                        <li>'Spreading Sunset (<em>Lantana urticoides</em>)</li>
+                        <li>Lantana camara 'Miss Huff'</li>
+                        <li>Lantana camara 'Bandito'</li>
+                    </ol>
+                </div>
+                <div class="border-start border-danger border-4 px-2">
+                    <h5>Different Colours of Lantana</h5>
+                    <ul class="list-style-type: square ">
+                        <li class="px-2">Red</li>
+                        <li class=" px-2">Orange</li>
+                        <li class=" px-2">Yellow</li>
+                        <li class=" px-2">Pink</li>
+                        <li class=" px-2">Purple</li>
+                        <li class=" px-2">White</li>
+                    </ul>
+                </div>
+                <table class="striped my-table px-2 ">
+                    <thead>
+                        <tr>
+                            <th colspan="2" class="bg-secondary text-center text-light"><strong>LANTANA FLOWER</strong></th>
+                        </tr>
+                        <tr>
+                            <th>About Lantana</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Common Name</td>
+                            <td>Lantana, shrub berbena</td>
+                        </tr>
+                        <tr>
+                            <td>Botanical Name</td>
+                            <td>Lantana Camara</td>
+                        </tr>
+                        <tr>
+                            <td>Family</td>
+                            <td>Verbenaceae</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <form class="px-4" action="/assignment-2.html" method="POST">
+                <h5>Form for Lantana flower</h5>
+                <hr>
+                <div class="form-floating" id="color-selection">
+                    <select class="form-select bg-success-subtle" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Select you favorite colour of Lantana Flower</option>
+                        <option value="1">Red</option>
+                        <option value="2">Orange</option>
+                        <option value="3">Yellow</option>
+                        <option value="4">Pink</option>
+                        <option value="5">Purple</option>
+                    </select>
+                </div>
+                <div id = my-list></div>
+                <hr>
+                <div>
+                    <label for="quantity">How many colours of Lantana flower do you like?</label>
+                    <input type="number" id="quantity">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Comment</label>
+                </div>
+                <div class="col-12 py-2">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.nav-background{
+    background-color: #9abceb;
+}
+.nav-main-bar{
+    background-color: #3B4D61;
+}
+.nav-btn{
+    background-color: #9abceb;
+}
+
+.u-list a{
+    color: #3B4D61;
+    font-weight: bold;
+}
+.main-heading img{
+    width: 400px;
+    height: 300px;
+}
+.main-heading{
+    text-align: center;
+}
+.main-heading h1{
+    color: #E06722;
+    font-weight: bold;
+}
+.my-table{
+    width: 400px;
+    border-left: solid 4px red;
+}
